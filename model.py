@@ -30,6 +30,7 @@ output = 10
 tx = tf.placeholder(tf.float32, [,input])
 ty = tf.placeholder(tf.float32, [,output])
 
+
 #constants
 iterations = 1000
 batchsize = 100     #subset, choose size
