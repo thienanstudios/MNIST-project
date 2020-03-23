@@ -1,4 +1,5 @@
 import tensorflow as tf
+import model as model
 
 # getting the data set from tensorflow
 data = tf.keras.datasets.mnist
